@@ -3,13 +3,60 @@
 /* Styles for screens up to 768px wide */
 @media (max-width: 768px) {
     .navbar {
-      font-size: 14px; /* Reduce font size */
+      font-size: 8px; /* Reduce font size */
+    }
+    .navbar a{
+        font-size: 10px; /* Reduce font size */
+        margin-left: 10px;
+        text-align: center;
+        margin-top: 2px;
+      }
+
+    .social-icons a{
+        font-size: 12px;
+        align-items: center;
     }
 
     .nav-links {
-        font-size: 14px; /* Reduce font size */
+        font-size: 10px; /* Reduce font size */
+        margin-top: 1PX;
     }
+    .nav-links a {
+        font-size: 12px;
+        text-align: center;
+      }
 
+      .abc li a {
+        
+        color: white;
+        float: left;
+        margin-right: 30px;
+        
+      }
+      .nav-links li a{
+        font-size: 8px;
+        font-family: 'Pacifico', cursive;
+      }
+
+      .dropdown .dropbtn {
+        font-size: 8px;
+        border: none;
+        outline: none;
+        color: white;
+        background-color: inherit;
+        padding: 10px 10px;
+        cursor: pointer;
+      }
+      /* Make the dropdown buttons full width for better touch interaction */
+      .dropdown-content {
+        width: 100%;
+      }
+    
+      /* Center align the text in the dropdown links */
+      .dropdown-content a {
+        text-align: left;
+      }
+    
     .title-text {
       font-size: 24px; /* Reduce font size */
       text-align: center; /* Center-align the title */
@@ -63,9 +110,10 @@
     }
   
     /* Add other section-specific styles as needed */
-  }
-  
-    @media (max-width: 576px) {
+
+}
+
+@media (max-width: 576px) {
       .navbar {
         font-size: 12px; /* Further reduce font size */
       }
@@ -100,5 +148,4 @@
   
       /* Adjust other styles as needed */
     }
-  }
   
