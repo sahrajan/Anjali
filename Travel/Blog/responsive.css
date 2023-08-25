@@ -81,6 +81,46 @@
         margin: 5px 0;
       }
     
+    .image0-row img {
+      width: 100%; /* Make images responsive */
+      height: auto;
+      display: block;
+      margin-bottom: -5px; /* Add spacing between images */
+     
+      max-width: 100%;
+    }
+    
+    .image1-row img {
+      width: 100%; /* Make images responsive */
+      height: auto;
+      display: block;
+       /* Add spacing between images */
+       margin-bottom: -5px;
+      max-width: 100%;
+    }
+
+    .image0-row {
+      width: 200%; /* Make images responsive */
+      height: auto;
+      display: block;
+      margin: 10px auto;
+      max-width: 100%;
+      margin-top: 100px;
+      margin-left: 20px;
+      
+      } 
+      .image1-row {
+        width: 100%; /* Make images responsive */
+        height: auto;
+        display: block;
+        margin-bottom: 10px; /* Add spacing between images */
+        margin: 10px auto;
+        max-width: 100%;
+        margin-left: 20px;
+      
+        
+        } 
+
     .image-row img {
       width: 100%; /* Make images responsive */
       height: auto;
@@ -120,14 +160,6 @@
     }
   
     /* Add other section-specific styles as needed */
-
-
-
-
-
-
-
-
 
 
   /* Styling for the unique font and design */
@@ -225,6 +257,14 @@ body {
   text-align: center;
 }
 
+
+/* ***************************************************** */
+
+
+
+
+
+
 @media (max-width: 576px) {
       .navbar {
         font-size: 12px; /* Further reduce font size */
@@ -259,5 +299,56 @@ body {
       }
   
       /* Adjust other styles as needed */
+
+
+    .image0-row img {
+      width: 100%; /* Make images responsive */
+      height: auto;
+      display: block;
+      margin-bottom: -5px; /* Add spacing between images */
+     
+      max-width: 100%;
     }
-  
+    
+    .image1-row img {
+      width: 100%; /* Make images responsive */
+      height: auto;
+      display: block;
+       /* Add spacing between images */
+       margin-bottom: -5px;
+      max-width: 100%;
+    }
+
+    .image0-row {
+      width: 200%; /* Make images responsive */
+      height: auto;
+      display: block;
+      margin: 10px auto;
+      max-width: 100%;
+      margin-top: 100px;
+      margin-left: 2px;
+      
+      } 
+      .image1-row {
+        width: 100%; /* Make images responsive */
+        height: auto;
+        display: block;
+        margin-bottom: 10px; /* Add spacing between images */
+        margin: 10px auto;
+        max-width: 100%;
+        margin-left: 2px;
+    }
+
+    
+
+      #main {
+        overflow: visible !important;
+        align-items: center;
+        margin-top: 30px;
+        margin-right: 10px;
+        margin-left: 10px;
+        
+      }
+      
+    }
+    
